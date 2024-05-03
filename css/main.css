@@ -214,6 +214,7 @@ header {
 
 .articulos{
   padding: 0px 80px 40px;
+  text-align: center;
 }
 
 .articulos h3{
@@ -241,6 +242,31 @@ header {
 .articulos_ficha p{
   margin: 20px 0px;
 }
+
+/* footer */
+
+.footer_blog{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 70px;
+  background-color: #f06543;
+}
+
+.footer_blog p{
+  grid-row: 2;
+  width: 100%;
+  text-align: center;
+  background-color: #313638;
+  color: aliceblue;
+  padding: 5px;
+}
+
+
+
+
+
+
+/* hacer responsive */
 
 @media screen and (max-width:1200px) {
   .container_noticias{
