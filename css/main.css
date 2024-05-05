@@ -320,3 +320,126 @@ header {
   
 }
 
+/* profile */
+
+.profile{
+  padding: 40px 80px;
+  background-color: #C5C3C6;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.profile img{
+  margin-right: 30px;
+  width: 320px;
+}
+
+
+.project_container{
+  padding: 0px 80px 40px;
+}
+
+.project_container h3{
+  border-bottom: solid 1px #C5C3C6;
+  padding: 15px;
+  text-align: center;
+}
+
+.project{
+  display: inline-block;
+  padding: 15px;
+  max-width: 32%;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+.project h4{
+  margin: 20px 0;
+}
+
+.project p{
+  margin: 20px 0;
+}
+
+
+.contact_container{
+  width: 100%;
+  display: flex;
+  background-color: #C5C3C6;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: space-between;
+  padding:20px 80px 20px;
+
+}
+
+
+.contact{
+display: flex;
+margin:  20px 0px 20px 20px;
+}
+
+.contact img{
+  width: 100px;
+  padding: 10px;
+  
+  }
+
+.contact_information{
+  padding: 20px 0;
+  width: 300px;
+}
+
+.contact_information a{
+  text-decoration: none;
+  color: #f06543;
+}
+
+
+@media screen and (max-width:920px) {
+
+  .profile{
+  text-align: center;
+  display: grid;
+}
+
+.contact_container{
+  display: block;
+  text-align: center;
+}
+
+.contact{
+  align-items: center;
+  justify-content: center;
+  }
+
+.project{
+  max-width: 100%;
+}
+
+
+}
+
+
+@media screen and (max-width:500px) {
+
+  .profile{
+  padding: 15px;
+  font-size: small;
+}
+
+.profile img{
+  margin-right: 0px;
+
+}
+
+.contact_container{
+  padding: 10px;
+}
+
+.contact  {
+  margin: 0px;
+}
+
+
+}
+
